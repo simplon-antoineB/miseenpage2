@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+
+#contenant{
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+/*Header----------------------------------*/
+
+#header{
+  height: 80px;
+  background-color:#1C1C1C;
+  display: inline-block;
+  width: 100%;
+  position: static;
+}
+
+#logo{
+  /*background-color: green;*/
+  width: 150px;
+  margin-left: 60px;
+  padding-top: 14px;
+  display: inline-block;
+}
+
+#blocPuce{
+  display: inline-block;
+  position:absolute;
+  margin-top: 15px;
+}
+
+
+ul{
+  /*background-color: red;*/
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+li{
+  display: inline-block;
+  color: grey;
+}
+
+#about{
+  margin-left: -20px;
+}
+
+.autre{
+  margin-left: 25px;
+}
+
+
+/* Div du corp de page 1 ------------------------------------ */
+
+
+#divHaut{
+  /*background-color: green;*/
+  width: 100%;
+  height: 350px;
+  border-bottom: solid 1px #E6E6E6;
+}
+
+#gauche{
+  position: absolute;
+}
+
+#droite{
+  width: 35%;
+  margin-left: 56%;
+  margin-top: 60px;
+  height: 300px;
+  position: absolute;
+}
+
+#grandeImage{
+  width: 700px;
+  height:300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#bouton{
+  background-color: #2E9AFE;
+  border-radius: 5px;
+  width: 140px;
+  height: 45px;
+  border: solid 1px #0174DF;
+  margin-top: 10px;
+}
+
+#bouton p{
+  font-size: 20px;
+  margin-top: 11px;
+  padding-left: 13px;
+  color: #FFF;
+}
+
+/*div* corp de la page 2 ----------------------------------------*/
+
+#phone{
+  height: 60px;
+  width: 100%;
+  background-color: #E6E6E6;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: solid 1px #D8D8D8;
+}
+
+#phone p{
+ padding: 20px 25% ;
+ width: 570px;
+}
+
+/*div corp de la page 3 ------------------------------------------------*/
+
+#divBas{
+  width: 100%;
+  height: 180px;
+  /*background-color: green;*/
+  display: flex;
+}
+
+#divGauche{
+width: 33%;
+/*background-color: red;*/
+padding-top: 35px;
+}
+
+#divCentrale{
+  width: 33%;
+  /*background-color: red;*/
+  padding-top: 35px;
+}
+
+#divDroite{
+  width: 33%;
+  /*background-color: red;*/
+  padding-top: 35px;
+}
